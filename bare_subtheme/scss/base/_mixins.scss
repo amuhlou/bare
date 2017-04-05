@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ////////////////
 // Mixins
 //
@@ -9,12 +10,27 @@
   &::before,
   &::after {
     content: '\0020';
+=======
+//
+// Mixins Partials
+//
+// All of your mixins should go in this file.
+//
+
+@mixin clear() {
+  &:before, &:after {
+    content: "\0020";
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
     display: block;
     height: 0;
     overflow: hidden;
   }
+<<<<<<< HEAD
 
   &::after {
+=======
+  &:after {
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
     clear: both;
   }
 }
@@ -25,6 +41,7 @@
 }
 
 //This is a friendly mixin, not used unless you use it.
+<<<<<<< HEAD
 @mixin sticky-footer($height: 125px) {
 
   html,
@@ -46,6 +63,27 @@
   footer,
   main::after {
     // .push must be the same height as footer
+=======
+@mixin sticky_footer($height:125px) {
+  html,
+  body {
+    height:100%;
+  }
+
+  #main-region {
+    min-height: 100%;
+    // equal to footer height
+    margin-bottom: -($height);
+    &:after {
+      content: "";
+      display: block;
+    }
+  }
+
+  #footer,
+  #main-region:after {
+    // the after must be the same height as footer
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
     height: $height;
   }
 }

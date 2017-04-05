@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // scss-lint:disable EmptyRule
 
 // Unordered List
@@ -11,18 +12,43 @@ ul {
   &.inline {
     a {
 
+=======
+//
+// Unordered List
+//
+ul {
+  li {
+
+  }
+  //
+  // Unordered inline list with links
+  //
+  &.inline {
+    li {
+      a {
+
+      }
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
     }
   }
 }
 
+<<<<<<< HEAD
 // Ordered List
 ol {
 
+=======
+//
+// Ordered List
+//
+ol {
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
   li {
 
   }
 }
 
+<<<<<<< HEAD
 // Both
 ul,
 ol {
@@ -33,14 +59,41 @@ ol {
 }
 
 // List Item
+=======
+//
+// Both
+//
+ul,
+ol {
+
+}
+
+//
+// List Item
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 li {
 
 }
 
+<<<<<<< HEAD
 // Nested Items
+=======
+//
+// Nested Items
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 ul ul,
 ul ol,
 ol ol,
 ol ul {
 
 }
+<<<<<<< HEAD
+=======
+
+ul.unstyled,
+ol.unstyled {
+
+}
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // scss-lint:disable EmptyRule
 
 // b
@@ -6,27 +7,61 @@ b {
 }
 
 // Delete
+=======
+
+// scss-lint:disable EmptyRule
+
+//
+// B
+//
+b {
+  @extend strong;
+}
+
+//
+// Delete
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 del {
 
 }
 
+<<<<<<< HEAD
 // Emphasis
 
 %em,
+=======
+//
+// Emphasis
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 em {
   font-style: italic;
 }
 
+<<<<<<< HEAD
 // Figcaption
+=======
+//
+// Figcaption
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 figcaption {
 
 }
 
+<<<<<<< HEAD
 // Figure
+=======
+//
+// Figure
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 figure {
 
 }
 
+<<<<<<< HEAD
 // hr
 hr {
   // scss-lint:disable ColorVariable
@@ -42,41 +77,100 @@ i {
 }
 
 // Quote
+=======
+//
+// hr
+//
+hr {
+  height: 1px;
+  border: 1px solid #666;
+  padding-bottom: -1px;
+  margin: rhythm(1) 0;
+}
+
+//
+// Italic
+//
+i {
+  @extend em;
+}
+
+//
+// Quote
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 q {
 
 }
 
+<<<<<<< HEAD
 // Strikethrough
+=======
+//
+// Strikethrough
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 s {
 
 }
 
+<<<<<<< HEAD
 // Small
+=======
+//
+// Small
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 small {
 
 }
 
+<<<<<<< HEAD
 // Strong
 %strong,
+=======
+//
+// Strong
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 strong {
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 // Subscript
+=======
+//
+// Subscript
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 sub {
 
 }
 
+<<<<<<< HEAD
 // Superscript
+=======
+//
+// Superscript
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 sup {
 
 }
 
+<<<<<<< HEAD
 // Underline
+=======
+//
+// Underline
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 u {
 
 }
 
+<<<<<<< HEAD
 // Message
 .messages {
   // Status message
@@ -92,5 +186,28 @@ u {
   // Error message
   &.error {
     //
+=======
+//
+// Messages
+//
+.messages {
+  //
+  // Status message
+  //
+  &.status {
+
+  }
+  //
+  // Warning message
+  //
+  &.warning {
+
+  }
+  //
+  // Error message
+  //
+  &.error {
+
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
   }
 }

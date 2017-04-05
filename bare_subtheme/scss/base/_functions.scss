@@ -1,5 +1,19 @@
+<<<<<<< HEAD
 ////////////////
 // Functions
 //
 // Functions can be wickedly powerful pieces of awesomeness. Learn em and love em.
 ////////////////
+=======
+////
+// Functions
+//
+// Functions can be wickedly powerful pieces of awesomeness. Learn em and love em.
+///
+
+@function font-family($family) {
+  @if ($family != 'inherit') {
+    @return $family;
+  }
+}
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b

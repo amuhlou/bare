@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ////////////////////////
+=======
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 // Style Guide Partials
 //
 // Your Style Guide
@@ -10,14 +14,21 @@
 // but should be customized to each theme so a full reset (like normalize) is
 // not needed. Those resets add extra weight and overriding of style that most
 // likely, the web designer never intended.
+<<<<<<< HEAD
 ////////////////////////
 
 //////////////////////////////
+=======
+//
+
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 // CSS Resets
 //
 // Choose your CSS Reset method:
 //  If you'd like a hard reset, uncomment `compass/reset`.
 //  If you'd prefer a soft reset, uncomment `compass-normalize`
+<<<<<<< HEAD
 //////////////////////////////
 // @import 'compass/rest';
 // @import 'normalize';
@@ -33,6 +44,27 @@
 @import 'forms';
 
 //Styleguid module layout
+=======
+//
+//
+
+// @import 'compass/rest';
+// @import 'normalize';
+
+//
+// Text
+//
+@import 'text';
+
+//
+// Forms
+//
+@import 'forms';
+
+//
+// Styleguide Module Layout.
+//
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 @import 'buttons';
 @import 'comment';
 @import 'common';

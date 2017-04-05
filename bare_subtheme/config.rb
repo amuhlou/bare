@@ -2,7 +2,10 @@
 require 'singularitygs'
 
 # Set this to the root of your project when deployed:
+<<<<<<< HEAD
 # http_path = "/sites/all/themes/aurora"
+=======
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 css_dir = "css"
 sass_dir = "scss"
 images_dir = "images"

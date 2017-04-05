@@ -1,0 +1,7 @@
+name = Bare Subtheme
+description = This subtheme of the bare base theme. This theme is to act as a skelton for awesomeness
+core = 7.x
+base = bare
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css

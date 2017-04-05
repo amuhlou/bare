@@ -3,14 +3,18 @@
 // Link
 a {
 
+<<<<<<< HEAD
   &:link {
     color: $link;
   }
 
+=======
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
   &:visited {
     color: $visited;
   }
 
+<<<<<<< HEAD
   &:hover,
   &:focus {
 
@@ -18,36 +22,70 @@ a {
 
   &:active,
   &.active {
+=======
+  &:hover, &:focus {
+
+  }
+
+  &:active, &.active {
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 
   }
 }
 
+<<<<<<< HEAD
 // Links
 li a {
 
+=======
+//
+// Links
+//
+li a {
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
   &.active {
 
   }
 }
 
+<<<<<<< HEAD
 // Mark, new
 .marker {
 
+=======
+//
+// Mark, new
+//
+.marker {
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
   a {
 
   }
 }
 
+<<<<<<< HEAD
 // Mark, updated
 // More help link
 .more-help-link {
 
+=======
+//
+// More help link
+//
+.more-help-link {
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
   a {
 
   }
 }
 
+<<<<<<< HEAD
  //More link
+=======
+ //
+ // More link
+ //
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 .more-link {
   a {
 

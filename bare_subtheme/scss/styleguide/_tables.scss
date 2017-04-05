@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 // scss-lint:disable EmptyRule
 
 // Table
+=======
+//
+// Table
+//
+
+// scss-lint:disable EmptyRule
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
 table {
 
 }
 
 tr {
+<<<<<<< HEAD
 
   &.odd {
 
@@ -13,6 +22,12 @@ tr {
 
   &.even {
 
+=======
+  &.odd {
+
+  }
+  &.even {
+>>>>>>> 3e7d5649b7695c90b561c37faf5aad178ce8fa6b
   }
 }
 
